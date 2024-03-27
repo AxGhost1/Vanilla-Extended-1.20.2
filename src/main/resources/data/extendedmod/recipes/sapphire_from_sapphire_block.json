@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extendedmod:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "extendedmod:sapphire",
+    "count": 9
+  }
+}
