@@ -6,5 +6,5 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
     public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(10).fast()
-            .saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200), 50.0f).build();
+            .saturationMod(1f).effect(() -> new MobEffectInstance(MobEffects.HEAL, 200), 50.0f).build();
 }
