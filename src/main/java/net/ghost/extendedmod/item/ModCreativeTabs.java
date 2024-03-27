@@ -19,6 +19,8 @@ public class ModCreativeTabs {
                     .title(Component.translatable("creativetab.extended_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_SAPPHIRE.get());
+                        output.accept(ModItems.STRAWBERRY.get());
+
                         output.accept(ModItems.SAPPHIRE.get());
 
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
