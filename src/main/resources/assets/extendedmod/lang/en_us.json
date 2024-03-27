@@ -2,5 +2,8 @@
   "item.extendedmod.sapphire": "Sapphire",
   "item.extendedmod.raw_sapphire": "Raw Sapphire",
 
+  "block.extendedmod.sapphire_block": "Block of Sapphire",
+  "block.extendedmod.raw_sapphire_block": "Block of Raw Sapphire",
+
   "creativetab.extended_tab": "Vanilla Extended"
 }

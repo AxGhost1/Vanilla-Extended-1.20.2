@@ -1,6 +1,7 @@
 package net.ghost.extendedmod;
 
 import com.mojang.logging.LogUtils;
+import net.ghost.extendedmod.block.ModBlocks;
 import net.ghost.extendedmod.item.ModCreativeTabs;
 import net.ghost.extendedmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,8 @@ public class ExtendedMod {
         ModCreativeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
