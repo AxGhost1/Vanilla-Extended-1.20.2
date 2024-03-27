@@ -12,7 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ExtendedMod.MOD_ID);
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+            () -> new Item(new Item.Properties().stacksTo(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
